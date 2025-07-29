@@ -1,0 +1,43 @@
+
+
+.explore-page {
+  padding: 2rem;
+  background-color: #000;
+  color: white;
+  min-height: 100vh;
+  margin-top: 3rem;
+}
+
+.explore-page h1{
+    text-align: center;
+    margin-bottom: 2rem;
+    
+}
+
+.explore-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+.explore-card {
+  background-color: #111;
+  padding: 1rem;
+  border-radius: 1rem;
+  text-align: center;
+  width: 200px;
+  color: white;
+  text-decoration: none;
+  transition: transform 0.2s;
+}
+
+.explore-card img {
+  width: 100%;
+  border-radius: 0.5rem;
+}
+
+.explore-card:hover {
+  transform: scale(1.2);
+  background-color: #222;
+}

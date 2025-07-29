@@ -1,0 +1,127 @@
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4rem 2rem;
+  color: white;
+}
+
+.welcome {
+  color: white;
+  margin: auto 30px;
+}
+.welcome h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.welcome h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.welcome p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+.hero img {
+  width: 25rem;
+  height: 30rem;
+  margin: auto;
+  border-radius: 1rem;
+}
+
+.about{
+  color: white;
+}
+
+.here{
+  text-decoration: none;
+  color: rgb(235, 48, 48);
+}
+
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    margin-top: 1rem;
+  }
+
+  .hero img {
+    margin-top: 3rem;
+    border-radius: 3rem;
+  }
+}
+
+
+.Home-explore{
+  text-decoration: none;
+  color: white;
+  border: 1px solid white;
+  padding: 1rem 2rem;
+  background-color: transparent;
+  margin-top: 4rem;
+  transition: 0.3s ease-in-out;
+}
+
+.Home-explore:hover{
+  background-color: rgb(228, 16, 16);
+  border-color: rgb(228, 16, 16);
+ 
+}
+
+
+
+.ex{
+  margin-top: 2rem;
+}
+
+.about, .features, .preview-gallery, .testimonials, .cta {
+  padding: 3rem 2rem;
+  text-align: center;
+  color: white;
+  /* background-color: #111; */
+}
+
+.about p{
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 1.2rem;
+}
+.features ul {
+  list-style: none;
+  padding: 0;
+}
+
+.features li {
+  margin: 0.5rem 0;
+  font-size: 1.1rem;
+}
+
+.preview-gallery .nft-grid {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.preview-gallery h2 {
+  margin-bottom: 2rem;
+}
+.testimonials blockquote {
+  margin: 1rem auto;
+  font-style: italic;
+  font-size: 1.1rem;
+  max-width: 600px;
+}
+
+.cta-button {
+  display: inline-block;
+  background: #fff;
+  color: #111;
+  padding: 1rem 2rem;
+  margin-top: 1rem;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  font-weight: bold;
+}
